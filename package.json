@@ -1,0 +1,39 @@
+{
+  "name": "vscode-securestore",
+  "version": "1.0.0-preview",
+  "description": "Provides access to your OS' secure store in your VSCODE extensions",
+  "homepage": "https://github.com/parithon/vscode-secureStore",
+  "repository": {
+    "url": "https://github.com/parithon/vscode-secureStore.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/parithon/vscode-secureStore/issues"
+  },
+  "keywords": [
+    "secureStore",
+    "keytar",
+    "vscode"
+  ],
+  "author": {
+    "name": "Anthony Conrad"
+  },
+  "readme": "https://github.com/parithon/vscode-secureStore/README.md",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.10.39"
+  },
+  "main": "./dist/secureStore.js",
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/keytar": "^4.0.1",
+    "@types/node": "^8.10.39",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.4",
+    "vscode": "^1.1.26"
+  }
+}
