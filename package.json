@@ -1,6 +1,6 @@
 {
   "name": "vscode-securestore",
-  "version": "1.0.0-preview",
+  "version": "1.0.1-preview",
   "description": "Provides access to your OS' secure store in your VSCODE extensions",
   "homepage": "https://github.com/parithon/vscode-secureStore",
   "repository": {
